@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="./node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Bootstrap</title>
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-lg bg-body-tertiary position-sticky w-100 top-0 shadow-sm z-3"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand m-0" href="/">Bootstrap</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbar"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar">
+          <ul
+            class="navbar-nav me-auto mb-2 mb-lg-0 d-flex justify-content-center align-items-center w-100"
+          >
+            <li class="nav-item">
+              <a href="/" class="nav-link active">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#landing" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#services" class="nav-link">Services</a>
+            </li>
+            <li class="nav-item">
+              <a href="#gallery" class="nav-link">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link">Contact</a>
+            </li>
+          </ul>
+          <button
+            id="navBtn"
+            style="white-space: nowrap"
+            class="btn btn-primary"
+          >
+            Get Started
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <section
+      id="landing"
+      class="container-fluid bg-dark d-flex justify-content-center align-items-center flex-column gap-3 text-center text-white"
+      style="height: calc(100dvh - 56px)"
+    >
+      <h1 class="h1">LEARN BOOTSTRAP WITH US</h1>
+      <p class="w-75">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo nemo
+        officia necessitatibus, sequi ab quibusdam dicta impedit repellendus
+        facilis itaque.
+      </p>
+      <button class="btn btn-primary">Try it now!</button>
+    </section>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+    <section
+      id="services"
+      class="container-fluid p-5"
+      style="background-color: #f0f2f5"
+    >
+      <h1 class="h1 text-center mb-4">Our Services</h1>
+      <div id="cards" class="row">
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="card shadow">
+            <img
+              src="https://random-image-pepebigotes.vercel.app/api/random-image"
+              alt=""
+              class="card-img-top"
+            />
+            <div class="card-body">
+              <h2 class="card-title">Test</h2>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste,
+                dicta!
+              </p>
+              <button class="btn btn-primary w-100">Get now!</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="card shadow">
+            <img
+              src="https://random-image-pepebigotes.vercel.app/api/random-image"
+              alt=""
+              class="card-img-top"
+            />
+            <div class="card-body">
+              <h2 class="card-title">Test</h2>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste,
+                dicta!
+              </p>
+              <button class="btn btn-primary w-100">Get now!</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-12 col-sm-12 mt-lg-0 mt-md-4 mt-sm-0">
+          <div class="card shadow">
+            <img
+              src="https://random-image-pepebigotes.vercel.app/api/random-image"
+              alt=""
+              class="card-img-top"
+            />
+            <div class="card-body">
+              <h2 class="card-title">Test</h2>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste,
+                dicta!
+              </p>
+              <button class="btn btn-primary w-100">Get now!</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery" class="p-5">
+      <h1 class="h1 text-center mb-4 fw-bold">Gallery</h1>
+      <div
+        class="d-flex flex-wrap flex-row gap-3 justify-content-center mb-lg-5"
+      >
+        <div id="Gallery-img" style="max-width: 23%">
+          <img
+            class="card-img shadow rounded-3 border-0"
+            src="https://random-image-pepebigotes.vercel.app/api/random-image"
+            alt=""
+          />
+        </div>
+        <div id="Gallery-img" style="max-width: 23%">
+          <img
+            class="card-img shadow rounded-3 border-0"
+            src="https://random-image-pepebigotes.vercel.app/api/random-image"
+            alt=""
+          />
+        </div>
+        <div id="Gallery-img" style="max-width: 23%">
+          <img
+            class="card-img shadow rounded-3 border-0"
+            src="https://random-image-pepebigotes.vercel.app/api/random-image"
+            alt=""
+          />
+        </div>
+        <div id="Gallery-img" style="max-width: 23%">
+          <img
+            class="card-img shadow rounded-3 border-0"
+            src="https://random-image-pepebigotes.vercel.app/api/random-image"
+            alt=""
+          />
+        </div>
+        <div id="Gallery-img" style="max-width: 23%">
+          <img
+            class="card-img shadow rounded-3 border-0"
+            src="https://random-image-pepebigotes.vercel.app/api/random-image"
+            alt=""
+          />
+        </div>
+        <div id="Gallery-img" style="max-width: 23%">
+          <img
+            class="card-img shadow rounded-3 border-0"
+            src="https://random-image-pepebigotes.vercel.app/api/random-image"
+            alt=""
+          />
+        </div>
+        <div id="Gallery-img" style="max-width: 23%">
+          <img
+            class="card-img shadow rounded-3 border-0"
+            src="https://random-image-pepebigotes.vercel.app/api/random-image"
+            alt=""
+          />
+        </div>
+        <div id="Gallery-img" style="max-width: 23%">
+          <img
+            class="card-img shadow rounded-3 border-0"
+            src="https://random-image-pepebigotes.vercel.app/api/random-image"
+            alt=""
+          />
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="container-fluid text-center p-5"
+      style="background-color: #f0f2f5"
+    >
+      <h1 class="h1 fw-bold">Our Team</h1>
+      <p class="mb-5">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, tempora.
+      </p>
+      <div id="teams" class="row justify-content-center">
+        <div
+          class="col-lg-4 col-md-6 col-sm-12 d-flex flex-column align-items-center"
+        >
+          <img
+            src="https://picsum.dev/200/200"
+            alt=""
+            class="card-img rounded-circle shadow mb-2"
+            style="max-width: 40%"
+          />
+          <h3>Lorem, ipsum.</h3>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div
+          class="col-lg-4 col-md-6 col-sm-12 d-flex flex-column align-items-center"
+        >
+          <img
+            src="https://picsum.dev/200/200"
+            alt=""
+            class="card-img rounded-circle shadow mb-2"
+            style="max-width: 40%"
+          />
+          <h3>Lorem, ipsum.</h3>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div
+          class="col-lg-4 col-md-6 col-sm-12 d-flex flex-column align-items-center"
+        >
+          <img
+            src="https://picsum.dev/200/200"
+            alt=""
+            class="card-img rounded-circle shadow mb-2"
+            style="max-width: 40%"
+          />
+          <h3>Lorem, ipsum.</h3>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="container p-5 text-center">
+      <div class="gap-2">
+        <h1 class="h1">Contact Us</h1>
+        <p class="mb-5">
+          Have questions? Send us a message and we'll respond as soon as
+          possible.
+        </p>
+        <form
+          action="post"
+          id="contact-forms"
+          class="col row justify-content-center align-items-center gap-4"
+        >
+          <input
+            id="inputname"
+            type="text"
+            class="form-control w-50"
+            placeholder="Name"
+          />
+          <input
+            id="inputemail"
+            type="email"
+            class="form-control w-50"
+            placeholder="Email"
+          />
+          <textarea
+            id="inputmessage"
+            class="form-control w-50"
+            style="min-height: 100px"
+            placeholder="Message"
+          ></textarea>
+          <button class="btn btn-primary w-50">Send Message</button>
+        </form>
+      </div>
+    </section>
+
+    <footer
+      id="footer"
+      class="container-fluid m-0 p-4 row justify-content-between flex-wrap-reverse gap-2"
+      style="background-color: #1f2937; color: #606977"
+    >
+      <span class="col d-flex justify-content-start"
+        >@ 2025 Bootstrap Learning.</span
+      >
+      <div class="col d-flex gap-3 justify-content-end">
+        <a href="/">Home</a>
+        <a href="#landing">About</a>
+        <a href="#services">Services</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </footer>
+  </body>
+</html>

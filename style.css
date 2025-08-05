@@ -1,0 +1,56 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth !important;
+}
+
+#cards {
+  margin: 0;
+}
+
+#Gallery {
+  margin: 0;
+}
+
+footer > div > * {
+  text-decoration: none !important;
+  color: #606977;
+}
+
+@media (max-width: 992px) {
+  #navBtn {
+    width: 100%;
+  }
+
+  #landing {
+    background-size: cover !important;
+  }
+
+  #gallery {
+    padding: 1rem !important;
+    margin-bottom: 1.5rem !important;
+  }
+
+  #Gallery-img {
+    max-width: 45% !important;
+  }
+}
+
+@media (max-width: 776px) {
+  #cards {
+    gap: 1rem !important;
+  }
+
+  #teams {
+    gap: 1rem !important;
+  }
+
+  #contact-forms > * {
+    width: 100% !important;
+  }
+
+  #footer > * {
+    justify-content: center !important;
+  }
+}
